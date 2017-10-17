@@ -5,10 +5,11 @@ Vestlicht
 ## 'send' 
 server.endpoint.com/send?a=A&port=1&state=1
 Changes one specific relay's state, this state is also saved on the hardware
-
-a     | deprecated
-port  | the number of the port (0-3)
-state | the state of the relay (on=1,off=0)
+|GET argument|function|
+|---|---|
+|a     | deprecated|
+|port  | the number of the port (0-3)|
+|state | the state of the relay (on=1,off=0)|
 
 ## 'get'
 
