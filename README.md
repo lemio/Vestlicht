@@ -6,11 +6,7 @@ Vestlicht
 server.endpoint.com/send?a=A&port=1&state=1
 Changes one specific relay's state, this state is also saved on the hardware
 
-| GET argument  | function      | argnum  |
-| ------------- |:-------------:| -----:|
-| a      | deprecated | 0 |
-| port      | the number of the port (0-3)  |   1 |
-| state | the state of the relay (on=1,off=0)      |   2 |
+
 
 | GET argument | function |
 | --- | --- |
