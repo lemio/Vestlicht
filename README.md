@@ -3,7 +3,10 @@ Vestlicht
 # Endpoints
 
 ## 'send' 
+```
 server.endpoint.com/send?a=A&port=1&state=1
+
+```
 Changes one specific relay's state, this state is also saved on the hardware
 
 
@@ -16,7 +19,9 @@ Changes one specific relay's state, this state is also saved on the hardware
 
 ## 'get'
 
+```
 server.endpoint.com/get
+```
 Will return the values in this format `[XXXX]` where the X is (1=on) or (0=off)
 
 ## php example to create sequences of light (pikeurtijd)
